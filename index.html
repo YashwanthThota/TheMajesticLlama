@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Yashwanth Thota">
+    <title>The Majestic Llama | Welcome</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+     <header>
+       <div class="container">
+         <div id="branding">
+           <h1>The Majestic<span class="highlight"> Llama</span></h1>
+       </div>
+       <nav>
+         <ul>
+           <li class="current"><a href="index.html">Home</a></li>
+           <li><a href="funfacts.html">Fun Facts</a></li>
+           <li><a href="about.html">About Us</a></li>
+         </ul>
+       </nav>
+     </header>
+
+     <section id="showcase">
+      <div class="container">
+        <h1>Want to know about Llama??</h1>
+        <p>you are at the right place</p>
+      </div>
+     </section>
+
+     <section id="newsletter">
+     <div class="container">
+      <h1>Subscribe To Our Newsletter</h1>
+      <form>
+        <input id="txtf" type="email" placeholder="Enter Email....">
+        <button type="submit" class="button_1" onclick="myFunction()">Subscribe</button>
+      </form>
+      <script>
+      function myFunction() {
+        alert("Welcome to Llama Family!!");
+        document.getElementById("txtf").value = "";
+      }
+      </script>
+
+     </div>
+     </section>
+
+     <section id="boxes">
+       <div class="container">
+        <div class="box">
+          <a href="game.html"><img src="./images/gamelogo.png"></a>
+          <h3>Llama Game!!</h3>
+          <p> Click on the image to play with The Majestic Llama</p>
+        </div>
+        <div class="box">
+          <a href="gallery.html"><img src="./images/Gal1.png"></a>
+          <h3>Llama Gallery</h3>
+          <p> Click on the image for The Majestic Llama image gallery</p>
+        </div>
+        <div class="box">
+          <a href="youtube.html"><img src="./images/yt2.png"></a>
+          <h3>Youtube</h3>
+          <p> Click on the image for The Majestic Llama video</p>
+        </div>
+       </div>
+     </section>
+     <footer>
+       <p> The Majestic Llama, Copyright &copy; 2017</p>
+     </footer>
+  </body>
+</html>

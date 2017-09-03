@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Yashwanth Thota">
+    <title>The Majestic Llama | Llama Game</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript">
+    var image_tracker = 'l1'
+    function change(){
+      var image = document.getElementById('llama');
+      if(image_tracker == 'l1'){
+        image.src = "./images/l2.jpg";
+        image_tracker='l2';
+      }else {
+        image.src="./images/l1.jpg";
+        image_tracker='l1';
+      }
+    }
+    </script>
+  </head>
+  <body>
+     <header>
+       <div class="container">
+         <div id="branding">
+           <h1>The Majestic<span class="highlight"> Llama</span></h1>
+       </div>
+       <nav>
+         <ul>
+           <li ><a href="index.html">Home</a></li>
+           <li ><a href="funfacts.html">Fun Facts</a></li>
+           <li><a href="about.html">About Developer</a></li>
+         </ul>
+       </nav>
+     </header>
+
+
+     <section id="main">
+       <div class="container">
+         <h1><center>The Majestic Llama Game</center></h1>
+         <div class="gameimage">
+         <img src="./images/l1.jpg" alt="llama logo" id="llama" width="500">
+         </div>
+         <center><button type="submit" class="button_1" onclick="change()">Click Me!!</button></center>
+       </div>
+      </section>
+     <footer>
+       <p> The Majestic Llama, Copyright &copy; 2017</p>
+     </footer>
+  </body>
+</html>
